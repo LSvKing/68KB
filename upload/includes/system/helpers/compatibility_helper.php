@@ -6,7 +6,7 @@
  *
  * @package		CodeIgniter
  * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2009, EllisLab, Inc.
+ * @copyright	Copyright (c) 2008 - 2010, EllisLab, Inc.
  * @license		http://codeigniter.com/user_guide/license.html
  * @link		http://codeigniter.com
  * @since		Version 1.0
@@ -25,6 +25,7 @@
  * well with CodeIgniter, so those functions have been refactored.
  * We cheat a little and use CI's _exception_handler() to output our own PHP errors
  * so that the behavior fully mimicks the PHP 5 counterparts.  -- Derek Jones
+ * @PHP4
  * 
  * @package		CodeIgniter
  * @subpackage	Helpers

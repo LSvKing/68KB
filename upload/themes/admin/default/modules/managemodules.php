@@ -36,7 +36,7 @@
 						<tr<?php if ($alt) echo ' class="second"'; else echo ' class="first"'; $alt = !$alt; ?>>
 							<td nowrap>
 								<?php echo $row['displayname']; ?>
-								<?php if(file_exists(KBPATH.'my-modules/'.$row['name'].'/admin.php')): ?>
+								<?php if(file_exists(ROOTPATH.'my-modules/'.$row['name'].'/admin.php')): ?>
 									<br /><a href="<?php echo site_url('admin/modules/show/'.$row['name']); ?>"><?php echo lang('kb_admin'); ?></a>
 								<?php endif; ?>
 							</td>
